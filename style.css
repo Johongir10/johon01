@@ -1,0 +1,177 @@
+*{ 
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+
+}
+header{
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+
+}
+.menu li a{
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+color:#101010;
+text-decoration: none;
+}
+.menu li a:hover{
+   color: #1AAB7B;
+}
+.btn{
+    padding: 12px 24px;
+    background-color: #101010;
+    color: white;
+    border-radius: 8px;
+
+}
+.btn:hover{
+    background-color: white;
+    color: #1AAB7B;
+    border: 1px solid;
+
+}
+.bussiness{
+    padding: 100px 0;
+    display: flex;
+    gap: 74px;
+}
+.bussiness-text{
+    max-width: 550px;
+
+}
+.bussiness-text h1{
+font-size: 56px;
+font-weight: 700;
+line-height: 78.4px;
+
+}
+p{
+  color: #636f87;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  margin: 20px 0;
+}
+.btn-green{
+    padding: 20px 40px;
+    background: #1bf166;
+    color: white;
+    border: 1px solid #1bf166;
+    border-radius: 8px;
+
+    
+}
+.btn-green:hover{
+    background-color: white;
+    color: #1AAB7B;
+
+
+}
+.help {
+    padding: 50px 0;
+    background-color: white;
+    
+}
+
+.help h2{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 50.4px;
+    text-align: center;
+}
+.card{
+    border: 2px solid #E1E7ED;
+    max-width: 384px;
+    padding: 40px 30px;
+    border-radius: 6px;
+
+}
+
+.card h3{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 44.8px;
+
+}
+.card h3::after{
+    content: url("./pen-tool.png");
+    margin-left: 30px;
+}
+.card a{ text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #101010;
+}
+.helpContainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+ 
+
+}
+.card:hover{
+    background: #1bf166;
+    color: #636f87;
+
+}
+.mars{
+    padding: 100px 0;
+    text-align: center;
+    
+}
+.mars p{
+    max-width: 650px;
+    margin: 20px auto;
+}
+
+.mars-bg{
+    background-image: url(https://static0.givemesportimages.com/wordpress/wp-content/uploads/2022/05/GettyImages-81191334.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 220px 0;
+
+
+}
+
+form{
+    background-color: #101010;
+    opacity: 0.7;
+    width: 565px;
+    padding: 58px;
+    margin: 10px auto;
+
+}
+input{
+    width: 463px;
+    height: 46px;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    background-color: inherit;
+    border: none;
+    border-bottom: 1.5px solid white;
+}
+.johon2 h3 p{
+    justify-content: center;
+}
+.minim{
+    background-color: #101010;
+    color: white;
+}
